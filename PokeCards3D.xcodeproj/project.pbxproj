@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				EF1C7AE721C1CF9A0060E11D /* AppDelegate.swift */,
-				EF1C7AE921C1CF9A0060E11D /* art.scnassets */,
 				EF1C7AEB21C1CF9A0060E11D /* ViewController.swift */,
 				EF1C7AED21C1CF9A0060E11D /* Main.storyboard */,
+				EF1C7AE921C1CF9A0060E11D /* art.scnassets */,
 				EF1C7AF021C1CF9B0060E11D /* Assets.xcassets */,
 				EF1C7AF221C1CF9B0060E11D /* LaunchScreen.storyboard */,
 				EF1C7AF521C1CF9B0060E11D /* Info.plist */,
@@ -293,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bsinghamarjit.PokeCards3D;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bsinghamarjit.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bsinghamarjit.PokeCards3D;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bsinghamarjit.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
