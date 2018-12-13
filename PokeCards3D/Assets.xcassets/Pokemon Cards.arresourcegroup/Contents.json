@@ -5,7 +5,19 @@
   },
   "resources" : [
     {
+      "filename" : "bulbasaur-card.arreferenceimage"
+    },
+    {
+      "filename" : "charmander-card.arreferenceimage"
+    },
+    {
       "filename" : "pikachu-card.arreferenceimage"
+    },
+    {
+      "filename" : "snorlax-card.arreferenceimage"
+    },
+    {
+      "filename" : "squirtle-card.arreferenceimage"
     }
   ]
 }

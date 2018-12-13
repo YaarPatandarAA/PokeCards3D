@@ -37,7 +37,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             configuration.trackingImages = imageToTrack
             
-            configuration.maximumNumberOfTrackedImages = 2
+            configuration.maximumNumberOfTrackedImages = 5
             
             print("Images Successfully Added")
             
@@ -72,17 +72,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             node.addChildNode(planeNode)
             
             if imageAnchor.referenceImage.name == "pikachu-card" {
-                if let pokeScene = SCNScene(named: "art.scnassets/pikachu.scn") {
-                    
+                if let pokeScene = SCNScene(named: "art.scnassets/snorlax.scn") {
+
                     if let pokeNode = pokeScene.rootNode.childNodes.first {
-                        
+
                         pokeNode.eulerAngles.x = .pi / 2
-                        
+
                         planeNode.addChildNode(pokeNode)
                     }
                 }
             }
-//
+            
 //            if imageAnchor.referenceImage.name == "oddish-card" {
 //                if let pokeScene = SCNScene(named: "art.scnassets/oddish.scn") {
 //
@@ -94,11 +94,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 //                    }
 //                }
 //            }
-            
-            
-            
-            
-            
+ 
         }
         
         
