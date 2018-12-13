@@ -71,29 +71,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             node.addChildNode(planeNode)
             
-            if imageAnchor.referenceImage.name == "pikachu-card" {
-                if let pokeScene = SCNScene(named: "art.scnassets/snorlax.scn") {
-
-                    if let pokeNode = pokeScene.rootNode.childNodes.first {
-
-                        pokeNode.eulerAngles.x = .pi / 2
-
-                        planeNode.addChildNode(pokeNode)
-                    }
-                }
+            switch imageAnchor.referenceImage.name{
+                case "pikachu-card": let pokeNode = whichPoke(cardName: "pikachu")
+                                    planeNode.addChildNode(pokeNode)
+                case "snorlax-card": let pokeNode = whichPoke(cardName: "snorlax")
+                                    planeNode.addChildNode(pokeNode)
+                default: print("error")
             }
-            
-//            if imageAnchor.referenceImage.name == "oddish-card" {
-//                if let pokeScene = SCNScene(named: "art.scnassets/oddish.scn") {
-//
-//                    if let pokeNode = pokeScene.rootNode.childNodes.first {
-//
-//                        pokeNode.eulerAngles.x = .pi / 2
-//
-//                        planeNode.addChildNode(pokeNode)
-//                    }
-//                }
-//            }
  
         }
         
@@ -101,6 +85,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         return node
         
+    }
+    
+    func whichPoke(cardName: String) -> SCNNode{
+        var pokeNode1 = SCNNode()
+        if let pokeScene = SCNScene(named: "art.scnassets/\(cardName).scn") {
+            if let pokeNode = pokeScene.rootNode.childNodes.first {
+                pokeNode.eulerAngles.x = .pi / 2
+                pokeNode1 = pokeNode
+            }
+        }
+        return pokeNode1
     }
     
 }
