@@ -76,6 +76,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                                     planeNode.addChildNode(pokeNode)
                 case "snorlax-card": let pokeNode = whichPoke(cardName: "snorlax")
                                     planeNode.addChildNode(pokeNode)
+                case "charmander-card": let pokeNode = whichPoke(cardName: "charmander")
+                                    planeNode.addChildNode(pokeNode)
+                case "bulbasaur-card": let pokeNode = whichPoke(cardName: "snorlax")
+                                    planeNode.addChildNode(pokeNode)
+                case "squirtle-card": let pokeNode = whichPoke(cardName: "squirtle")
+                                    planeNode.addChildNode(pokeNode)
                 default: print("error")
             }
  

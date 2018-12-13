@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EF1C7AE821C1CF9A0060E11D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C7AE721C1CF9A0060E11D /* AppDelegate.swift */; };
-		EF1C7AEA21C1CF9A0060E11D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1C7AE921C1CF9A0060E11D /* art.scnassets */; };
 		EF1C7AEC21C1CF9A0060E11D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C7AEB21C1CF9A0060E11D /* ViewController.swift */; };
 		EF1C7AEF21C1CF9A0060E11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1C7AED21C1CF9A0060E11D /* Main.storyboard */; };
 		EF1C7AF121C1CF9B0060E11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1C7AF021C1CF9B0060E11D /* Assets.xcassets */; };
 		EF1C7AF421C1CF9B0060E11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1C7AF221C1CF9B0060E11D /* LaunchScreen.storyboard */; };
+		EFAB2CF921C20E29005F3F00 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAB2CF821C20E25005F3F00 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF1C7AE421C1CF9A0060E11D /* PokeCards3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeCards3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1C7AE721C1CF9A0060E11D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF1C7AE921C1CF9A0060E11D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		EF1C7AEB21C1CF9A0060E11D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF1C7AEE21C1CF9A0060E11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF1C7AF021C1CF9B0060E11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF1C7AF321C1CF9B0060E11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF1C7AF521C1CF9B0060E11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAB2CF821C20E25005F3F00 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				EF1C7AE721C1CF9A0060E11D /* AppDelegate.swift */,
 				EF1C7AEB21C1CF9A0060E11D /* ViewController.swift */,
 				EF1C7AED21C1CF9A0060E11D /* Main.storyboard */,
-				EF1C7AE921C1CF9A0060E11D /* art.scnassets */,
+				EFAB2CF821C20E25005F3F00 /* art.scnassets */,
 				EF1C7AF021C1CF9B0060E11D /* Assets.xcassets */,
 				EF1C7AF221C1CF9B0060E11D /* LaunchScreen.storyboard */,
 				EF1C7AF521C1CF9B0060E11D /* Info.plist */,
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1C7AEA21C1CF9A0060E11D /* art.scnassets in Resources */,
 				EF1C7AF421C1CF9B0060E11D /* LaunchScreen.storyboard in Resources */,
+				EFAB2CF921C20E29005F3F00 /* art.scnassets in Resources */,
 				EF1C7AF121C1CF9B0060E11D /* Assets.xcassets in Resources */,
 				EF1C7AEF21C1CF9A0060E11D /* Main.storyboard in Resources */,
 			);
