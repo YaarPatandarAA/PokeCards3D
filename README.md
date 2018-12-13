@@ -12,4 +12,4 @@ Using pokemon cards app will show a 3D model of the Pokemon in AR. Pokemons' 3D 
 * Generate 3D Model ontop of trading card in AR
 
 ## Finished App
-<img src="finishedApp.gif" alt="finished" width="40%">
+<img src="screenshot.png" alt="screenshot" width="40%"> <img src="finishedApp.gif" alt="finished" width="40%">
