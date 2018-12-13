@@ -1,8 +1,8 @@
 # Poke Cards 3D
-View Pokemon Trading card game monster as 3D Models in real space.
+View Pokemon Trading card game monster as 3D Model in real space.
 
 ## What is created
-Using pokemon cards that are inputed will show a 3D model if the Pokemon in AR. Have to set 3D model and also pre input traiding card, as hard coded assets. Be able to track the real world trading card plane and generate the 3D model of the monster ontop of the card.
+Using pokemon cards app will show a 3D model of the Pokemon in AR. Pokemons' 3D Model must have been set and also pre input trading card, as hard coded assets. Be able to track the real world trading card plane and generate the 3D model of the monster ontop of the card.
 
 ## What is learned
 * How to setup base ARKit2 Project
